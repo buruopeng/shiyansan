@@ -35,6 +35,7 @@ student i = new student(13, "芃芃", "男");
 **五 .核心代码
 
 创建了faculty构造方法调用父类方法，通过set方法接收参数，赋值给属性。
+
 ```
  faculty(int number, String name, String sex,String course_taught){
         super( number,  name,  sex);
@@ -44,14 +45,17 @@ student i = new student(13, "芃芃", "男");
   ```
     
  用toString方法返回变量
-    
-    ```public String toString(){
+ 
+    ```
+    public String toString(){
         return "编号:"+number+",姓名:"+name+"，性别："+sex+",所教课程:"+course_taught;
     }
     ```
+    
 获取键盘输入数值，如果获取值为5，赋值Ab为null，否则，打印选课成功
+
     ```
-        if (k == 5) {
+    if (k == 5) {
             i.setAb(null);
             System.out.println("退课成功");
             System.out.println(i);
@@ -60,6 +64,13 @@ student i = new student(13, "芃芃", "男");
             System.out.println("选课成功！");
 
 
-        }
-   ````
+    }
+    ```
+   
    **六.运行结果
+   
+   ![](https://github.com/buruopeng/shiyansan/blob/main/dd4c987e4fa0ae1574dac8fb54c0474.png"")
+   
+   **七.编程感想
+   
+   这次实验，我通过使用上课所学toString方法返回变量，super方法调用父类方法，更加了解实例化，参数接收传递过程，以及调用父类方法的严谨性，还运用了switch，ifelse循环语句，来帮助选择对应课程，学习了scanner包的用法，来完成接收键盘输入数值，完成面向用户的编程设计，通过自己检查错误，并通过反复调试程序得以成功运行程序，并满足基本需求，对学习Java语言以及其他编程语言增添了兴趣，更加敢于自己动手调试，也有了自己的编程思路，能比之前更会解决问题，效率更高。
