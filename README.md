@@ -41,15 +41,15 @@ student i = new student(13, "芃芃", "男");
         setCourse_taught(course_taught);
 
     }
-    ```
+  ```
     
-    用toString方法返回变量
+ 用toString方法返回变量
     
     ```public String toString(){
         return "编号:"+number+",姓名:"+name+"，性别："+sex+",所教课程:"+course_taught;
     }
     ```
-    获取键盘输入数值，如果获取值为5，赋值Ab为null，否则，打印选课成功
+获取键盘输入数值，如果获取值为5，赋值Ab为null，否则，打印选课成功
     ```
         if (k == 5) {
             i.setAb(null);
@@ -61,8 +61,6 @@ student i = new student(13, "芃芃", "男");
 
 
         }
-     ```
+   ```
      
-    
  **六.运行结果
- ![]()
