@@ -30,7 +30,7 @@ student i = new student(13, "芃芃", "男");
 
 **四.流程图
 
-![]{"shiyansan/c1c3acf4aec4607869cce9e12ea1b8c.png"}
+![](https://github.com/buruopeng/shiyansan/blob/main/c1c3acf4aec4607869cce9e12ea1b8c.png"")
 
 **五 .核心代码
 
